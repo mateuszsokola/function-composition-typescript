@@ -1,0 +1,38 @@
+{
+  "name": "function-composition-typescript",
+  "version": "1.0.0",
+  "description": "a Function Composition Example In Typescript",
+  "homepage": "https://medium.com/@mateuszsokola",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/test-preprocessor.js"
+    },
+    "testMatch": [
+      "**/__tests__/*.spec.(ts|tsx|js)"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateuszsokola/function-composition-typescript.git"
+  },
+  "author": "Mateusz Sokola",
+  "license": "MIT",
+  "dependencies": {
+    "@types/lodash": "^4.14.80",
+    "lodash": "^4.17.4",
+    "typescript": "^2.5.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^21.1.5",
+    "jest": "^21.2.1"
+  }
+}
